@@ -1,0 +1,25 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = { };
+ objectVersion = 56;
+ objects = {
+  1 = { isa = PBXProject; buildConfigurationList = 2; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base ); mainGroup = 3; productRefGroup = 4; projectDirPath = ""; projectRoot = ""; targets = ( 5 ); };
+  2 = { isa = XCConfigurationList; buildConfigurations = ( 6, 7 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  3 = { isa = PBXGroup; children = ( 8 ); sourceTree = "<group>"; };
+  4 = { isa = PBXGroup; children = ( 9 ); name = Products; sourceTree = "<group>"; };
+  5 = { isa = PBXNativeTarget; buildConfigurationList = 10; buildPhases = ( 11, 12, 13 ); buildRules = ( ); dependencies = ( ); name = InputFlow; productName = InputFlow; productReference = 9; productType = "com.apple.product-type.application"; };
+  6 = { isa = XCBuildConfiguration; buildSettings = { IPHONEOS_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+  7 = { isa = XCBuildConfiguration; buildSettings = { IPHONEOS_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+  8 = { isa = PBXGroup; children = ( 14, 15, 16, 17 ); path = InputFlow; sourceTree = "<group>"; };
+  9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  10 = { isa = XCConfigurationList; buildConfigurations = ( 18, 19 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  11 = { isa = PBXSourcesBuildPhase; files = ( 20, 21, 22 ); runOnlyForDeploymentPostprocessing = 0; };
+  12 = { isa = PBXResourcesBuildPhase; files = ( 23 ); runOnlyForDeploymentPostprocessing = 0; };
+  13 = { isa = PBXFrameworksBuildPhase; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+  14 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; }; 15 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; }; 16 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; }; 17 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  18 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.InputFlow; INFOPLIST_FILE = InputFlow/Info.plist; SWIFT_VERSION = 5.0; }; name = Debug; }; 19 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.example.InputFlow; INFOPLIST_FILE = InputFlow/Info.plist; SWIFT_VERSION = 5.0; }; name = Release; };
+  20 = { isa = PBXBuildFile; fileRef = 14; }; 21 = { isa = PBXBuildFile; fileRef = 15; }; 22 = { isa = PBXBuildFile; fileRef = 16; }; 23 = { isa = PBXBuildFile; fileRef = 17; };
+ };
+ rootObject = 1;
+}
